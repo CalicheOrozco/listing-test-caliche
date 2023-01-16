@@ -200,7 +200,7 @@ function App() {
         )
       ) : (
         // main page with the start button
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center text-center">
           <h1 className="text-4xl text-white font-bold mb-3 ">
             Welcome to the Listening test
           </h1>
