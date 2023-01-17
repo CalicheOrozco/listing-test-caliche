@@ -62,6 +62,10 @@ function App() {
     // set the data and submited to true
     setSubmited(true);
 
+    // set the answere to trim and first letter to capital
+    data["answereText"] = data["answereText"].trim();
+    data["answereText"] = data["answereText"].charAt(0).toUpperCase() + data["answereText"].slice(1);
+
     // compare the answers
     if (data["answereText"] === audio.answer) {
       setIsCorrect(true);
